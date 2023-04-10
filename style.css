@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'LED Counter 7';
+    src: url('LEDCounter7.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'LED Counter 7', sans-serif;
+  }
+  
