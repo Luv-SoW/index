@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+
+/* navbar */
+
+    .navbar {background-image: url(white-simple-textured-design-background.jpg);
+    }
+
+
+.buttons {padding-left: 85%;
+
+   
+
+}
+
+/* content */
+#main {
+
+    background-image: url(white-simple-textured-design-background.jpg);
+    
+    @font-face {
+        font-family: 'SourceCodePro-medium500';
+        src: url('./SourceCodePro-VariableFont_wght.ttf') format('opentype');
+    }
+
+}
+#texts {text-align: center;
+
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+#button1 {
+   margin-top: 75px;
+  
+}
+
+
+
+@font-face {
+    font-family: 'CuteFont';
+    src: url('./CuteFont-Regular.ttf') format('truetype');
+  }
+  
+  #h12 {
+    font-family: 'CuteFont', sans-serif;
+    font-size: 100px;
+  }
+#section2 {background-color: rgb(255, 245, 221);
+
+table-layout: auto;
+}
+.table {padding-top: 1px;
+
+padding-bottom: 1px;}
+
+
+#clients {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
