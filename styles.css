@@ -1,39 +1,46 @@
-body{
+body {
     text-align: center;
+    background-image: url(bg.png);
+    position: static;
+    overflow: scroll;
 }
 
 /* navbar */
 
-    .navbar {background-image: url(white-simple-textured-design-background.jpg);
-    }
+.navbar {
+    background-image: url(bg.png);
+}
 
 
-.buttons {padding-left: 85%;
+.buttons {
+    padding-left: 85%;
 
-   
+
 
 }
 
 /* content */
 #main {
 
-    background-image: url(white-simple-textured-design-background.jpg);
-    
+
+
     @font-face {
         font-family: 'SourceCodePro-medium500';
         src: url('./SourceCodePro-VariableFont_wght.ttf') format('opentype');
     }
 
 }
-#texts {text-align: center;
+
+#texts {
+    text-align: center;
 
     padding-top: 100px;
     padding-bottom: 120px;
 }
 
 #button1 {
-   margin-top: 75px;
-  
+    margin-top: 75px;
+
 }
 
 
@@ -41,29 +48,115 @@ body{
 @font-face {
     font-family: 'CuteFont';
     src: url('./CuteFont-Regular.ttf') format('truetype');
-  }
-  
-  #h12 {
+}
+
+#h12 {
     font-family: 'CuteFont', sans-serif;
     font-size: 100px;
-  }
-#section2 {background-color: rgb(255, 245, 221);
-
-table-layout: auto;
 }
-.table {padding-top: 1px;
+
+#section2 {
+    background-color: rgb(255, 245, 221);
+
+    table-layout: auto;
+}
+
+.table {
+    padding-top: 1px;
     max-width: 100%;
     max-height: auto;
-padding-bottom: 1px;}
+    padding-bottom: 1px;
+}
 
 
 #clients {
     text-align: center;
-  }
-  
-  img {
-   max-width: 100%;
-   max-height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
-    
-  }
+img {
+    max-width: 100%;
+    max-height: auto;
+
+
+}
+
+.center {
+
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        text-align: center;
+    }
+}
+
+/* styles for larger screens */
+@media only screen and (min-width: 601px) {
+    table {
+        display: table;
+    }
+
+    th,
+    td {
+        display: table-cell;
+    }
+
+    th {
+        text-align: left;
+    }
+}
+
+
+
+.card {
+    border-bottom: 150px;
+    border-top: 150px;
+    border-right: 20px;
+
+}
+
+.table {
+    background-color: bisque;
+}
+
+.td {
+    padding: 80px 40px 80px 40px;
+}
+
+.center {
+    max-width: fit-content;
+}
+
+
+
+.clintlogo {
+    max-height: 50px;
+}
+
+#h3clients {
+    padding-bottom: 100px;
+}
+
+#form {
+    text-align: center;
+}
