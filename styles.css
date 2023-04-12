@@ -150,7 +150,8 @@ table {
 
 
 .clintlogo {
-    max-height: 50px;
+    max-height: 100px;
+    padding-top: 50px;
 }
 
 #h3clients {
