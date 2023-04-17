@@ -1,0 +1,56 @@
+/* Global styles */
+@font-face {
+  font-family: 'MPLUSRounded1c-Medium';
+  src: url('MPLUSRounded1c-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'MPLUSRounded1c-Medium', sans-serif;
+}
+
+
+
+#body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(236, 248, 255);
+}
+section {
+      border-radius: 20px; 
+      background-color: rgb(245, 249, 255);
+			padding: 0px;
+			box-shadow: 40px 40px 50px rgb(201, 201, 201);
+
+
+
+}
+
+
+h3 {padding: 2rem;
+
+text-align: center;
+
+color: rgb(109, 109, 109);
+}
+
+
+.navbar-home-button {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-home-button i {
+  margin-right: 5px;
+}
+
+
+.collapse {
+  position: absolute;
+   
+    left: 45%;
+}

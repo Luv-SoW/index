@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'MPLUSRounded1c-Medium';
+    src: url('MPLUSRounded1c-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
 body {
     text-align: center;
-    background-image: url(bg.png);
+    background-image: url(bg2.png);
+
+
+    background-size: cover;
+    background-attachment: fixed;
+
+
     position: static;
     overflow: scroll;
+    font-family: 'MPLUSRounded1c-Medium', sans-serif;
 }
 
 /* navbar */
@@ -12,24 +29,7 @@ body {
 }
 
 
-.buttons {
-    padding-left: 85%;
-
-
-
-}
-
 /* content */
-#main {
-
-
-
-    @font-face {
-        font-family: 'SourceCodePro-medium500';
-        src: url('./SourceCodePro-VariableFont_wght.ttf') format('opentype');
-    }
-
-}
 
 #texts {
     text-align: center;
@@ -38,12 +38,7 @@ body {
     padding-bottom: 120px;
 }
 
-#button1 {
-    margin-top: 75px;
-
-}
-
-
+#t1 {margin-bottom: 5rem ;}
 
 @font-face {
     font-family: 'CuteFont';
@@ -55,43 +50,17 @@ body {
     font-size: 100px;
 }
 
-#section2 {
-    background-color: rgb(255, 245, 221);
-
-    table-layout: auto;
-}
-
-.table {
-    padding-top: 1px;
-    max-width: 100%;
-    max-height: auto;
-    padding-bottom: 1px;
-}
-
-
-#clients {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-img {
-    max-width: 100%;
-    max-height: auto;
-
-
-}
-
-.center {
-
-    text-align: center;
+#h11 {
+margin-left: 1rem;
 
 }
 
 table {
+    text-align: center;
     border-collapse: collapse;
-    width: 80%;
     margin: 0 auto;
+    border-bottom: none;
+   
 }
 
 @media only screen and (max-width: 600px) {
@@ -135,16 +104,25 @@ table {
 
 }
 
-.table {
-    background-color: bisque;
-}
+
 
 .td {
-    padding: 80px 40px 80px 40px;
+    padding: 2rem 1rem 2rem 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
-
+.td2 {
+    padding: 2rem 2rem 2rem 1rem;    
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
 .center {
-    max-width: fit-content;
+    max-width: 20%;
+    padding: 0 auto;
+
+    background-color: #b4b4b4; /* Set the background color */
+    width: 100%;
+    border-radius: 20px;
 }
 
 
@@ -161,3 +139,27 @@ table {
 #form {
     text-align: center;
 }
+
+
+.card-body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+td {
+    text-align: center; /* center the content of each cell */
+  }
+
+
+  .card-text {
+
+    padding: 2rem;
+  }
+
+  .collapse {
+    position: absolute;
+     
+      left: 45%;
+  }
+  
