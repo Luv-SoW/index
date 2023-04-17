@@ -60,6 +60,7 @@ table {
     border-collapse: collapse;
     margin: 0 auto;
     border-bottom: none;
+    max-width: 90%;
    
 }
 
