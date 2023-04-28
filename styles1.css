@@ -69,6 +69,7 @@ button {
   border: none;
   color: rgb(179, 179, 179);
   transition: 500ms;
+   font-family: 'MPLUSRounded1c-Medium', sans-serif;
 }
 
 button:hover {
