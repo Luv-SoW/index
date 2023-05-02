@@ -204,7 +204,7 @@ th, td {
 }
 #copyright {padding-top: 5rem;}
 about {
-  max-width: 75%;
+  max-width: 100%;
 }
 
 
@@ -236,7 +236,6 @@ about {
 .introduction {
   text-align: center;
 }
-
 
 
 
@@ -296,3 +295,24 @@ img {
   display: block;
   margin: 0 auto;
 } 
+
+
+.header {
+margin-top: 5rem;
+margin-bottom: .5rem;
+
+}
+
+footer {text-align: center;
+background-color: #444444;
+max-height: fit-content;
+}
+
+#footer {font-size: small}
+
+.introduction{ height: 75vh;
+margin-top: 30vh;}
+
+#image {
+  margin-bottom: 30vh;
+}
