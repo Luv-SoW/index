@@ -61,4 +61,7 @@ border-radius: 20px;
 }
 .tagt {margin: 0 5px;}
 
-.item {font-size: 12px;}
+.item {font-size: 12px;
+
+margin-top: 10px;
+margin-bottom: 20px;}
